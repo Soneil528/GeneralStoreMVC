@@ -29,6 +29,6 @@ namespace GeneralStoreMVC.Models
         {
             return new ApplicationDbContext();
         }
-        public DbSet<GeneralStoreMVC.Models.Product> Products { get; set; }// prop added to be able to access db entries returned as a list of products
+        public DbSet<Product> Products { get; set; }// prop added to be able to access db entries returned as a list of products
     }
 }
